@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FSS_Info_App</string>
+    <string name="timetable">TimeTable</string>
+    <string name="grades">Grades</string>
+    <string name="under_construction">This part is currently under construction</string>
+</resources>

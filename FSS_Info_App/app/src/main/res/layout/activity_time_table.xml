@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeTable"
+    android:background="@drawable/untitled_1"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/retour_emploi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="return"
+        android:textSize="25sp"
+        android:layout_margin="25dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/txt_emploi"
+        android:backgroundTint="#00394D" />
+
+    <TextView
+        android:id="@+id/txt_emploi"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/msg_layout"
+        android:text="@string/under_construction"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
