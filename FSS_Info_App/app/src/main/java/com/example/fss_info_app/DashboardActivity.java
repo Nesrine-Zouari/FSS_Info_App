@@ -10,16 +10,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 import java.io.DataOutputStream;
 import java.io.DataInputStream;
-import java.io.*;
 import java.io.IOException;
 import java.net.Socket;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
+@SuppressWarnings("deprecation")
 public class DashboardActivity extends AppCompatActivity {
 
     TextView textView1;
-    private static String serverIP="192.168.56.1";
+    private static String serverIP="192.168.1.16";
     private static String txtPort="1000";
     private EditText txtMsg;
     FrameLayout timeTable;
